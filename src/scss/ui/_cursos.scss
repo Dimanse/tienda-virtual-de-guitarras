@@ -1,0 +1,8 @@
+@use '../custom' as *;
+@use '../base/mixins' as m;
+
+.cursos{
+    @include m.background-image('../../../build/img/cursos_bg.jpg');
+
+    padding: 8rem 0;
+}
